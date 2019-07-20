@@ -9,9 +9,9 @@ module.exports = {
 		library: 'RSKUtils'
     },
     module: {
-        loaders: [
+        rules: [
             { test: /\.css$/, loader: "style!css" },
-			{ test: /\.json$/, loader: "json-loader" }
+			{ test: /\.json$/, type: 'javascript/auto', loader: "json-loader" }
         ]
     },
 	plugins: [

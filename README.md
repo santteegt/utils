@@ -6,13 +6,15 @@
 
 - Install NPM:	https://docs.npmjs.com/cli/install
 
-- Install Webpack: $ npm install webpack -g
+- Install lightweight static site server: $ npm install -g serve
 		
 - Run: $ npm install
 
-- Run: $ webpack
+- Run: $ npm run build
 
-- A new "build" folder is created after previous step is executed, in the folder, you would find the the browser app ready to go, just open index.html
+- A new "build" folder is created after previous step is executed
+
+- To deploy the application run: $ serve -s build/
 
 
 **This small application run within the browser, no call to the server is made. So you can run it off-line.**
